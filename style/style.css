@@ -18,6 +18,30 @@
     display: none;
 }
 
+.square {
+    height: 25px;
+    width: 25px;
+    background-color: #7301ff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    padding-bottom: 3px;
+    padding-left: 1px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.square:hover {
+    background-color: #188fff;
+    color: white;
+}
+
 
 nav {
     width: 100%;
@@ -166,6 +190,7 @@ span {
     background-image: url(../images/background6-1.0.0.jpg);
     background-position: 50% 80%;
     background-size: cover;
+    position: relative;
 }
 
 .span2 {
