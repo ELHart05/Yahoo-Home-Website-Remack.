@@ -344,6 +344,9 @@ footer {
 h2 {
     font-family: NorthernSoul-Caps;
     font-size: 50px;
+    background-image: url(../images/hightlight-big-yellow-module1-1.0.0.svg);
+    background-position: 50% 80%;
+    background-size: cover;
 }
 
 .top_container>div:last-child {
