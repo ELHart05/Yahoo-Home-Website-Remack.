@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @font-face {
     font-family: NorthernSoul-Caps;
     src: url(../fonts/NorthernSoul-Script.otf);
@@ -10,7 +12,7 @@
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -31,8 +33,13 @@ nav {
     z-index: 999;
 }
 
-.apple:hover{transform: scale(1.03);}
-.google:hover{transform: scale(1.03);}
+.apple:hover {
+    transform: scale(1.03);
+}
+
+.google:hover {
+    transform: scale(1.03);
+}
 
 ul {
     display: flex;
@@ -50,7 +57,7 @@ ul {
 a {
     color: white;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     margin: 0 18px;
     font-weight: 300;
     transition: 1s;
@@ -74,7 +81,7 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: black;
     background: transparent;
 }
 
@@ -115,8 +122,15 @@ h1 {
 }
 
 .main-title2 {
+    letter-spacing: 3px;
+    line-height: 55px;
+    color: black;
+}
+
+.main-title3 {
     color: black;
     font-weight: 600;
+    line-height: 55px;
 }
 
 span {
@@ -134,6 +148,10 @@ span {
     line-height: 45px;
 }
 
+.span2 {
+    line-height: 50px;
+}
+
 .paragraph {
     color: white;
     font-size: 16px;
@@ -147,6 +165,11 @@ span {
     line-height: 21px;
 }
 
+.paragraph2 {
+    color: black;
+    line-height: 21px;
+}
+
 .btn {
     background-color: #188fff;
     color: white;
@@ -154,17 +177,40 @@ span {
     padding: 6px 28px;
     margin-top: 23px;
     border-radius: 2px;
+    box-shadow: black 0 0 5px 0;
     cursor: pointer;
     transition: 1s;
 }
 
-.btn:hover {
-    background-color: rgb(197, 197, 197);
+.button2 {
+    padding: 6px 20px;
+}
+
+.button2:hover {
+    background-color: white;
     color: black;
+    box-shadow: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+}
+
+.section2 {
+    min-height: 100vh;
+    background-image: url(../images/257927-web-designer-s-office-wallpaper-web-design-wallpaper-hd.jpg);
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
-.section2 {
+.section3 {
     min-height: 100vh;
     background-image: url(../images/background6-1.0.0.jpg);
     background-position: 50% 80%;
@@ -172,8 +218,7 @@ span {
     position: relative;
 }
 
-.span2 {
-    background-image: none;
+.span3 {
     font-weight: 300;
     line-height: 35px;
 }
@@ -184,13 +229,41 @@ span {
     height: 10px;
     width: 105px;
     margin-top: 17px;
+    transition: 0.8s;
 }
 
-.paragraph2 {
+.yellow-ruler:hover {
+    transform: translateX(-20px);
+    background-color: transparent;
+}
+
+.paragraph3 {
+    line-height: 21px;
     color: black;
-    line-height: 25px;
-    font-weight: 300;
     margin-top: 17px;
+}
+
+input {
+    margin-top: 17px;
+    width: 250px;
+    padding: 8px 0;
+    border: transparent;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: 0.5s;
+    box-shadow: 0 0 3px black;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input:focus {
+    box-shadow: none;
+    outline: none;
 }
 
 .apps {
@@ -198,10 +271,15 @@ span {
 }
 
 .apps>img {
-    height: 37, 23px;
-    width: 125px;
+    height: 42px;
+    width: 140px;
     cursor: pointer;
+    border-radius: 6px;
     transition: 0.5s;
+}
+
+.apps {
+    padding: 0 25px 0 0;
 }
 
 .wrapper {
@@ -216,6 +294,10 @@ span {
 }
 
 .wrapper2 {
+    margin-top: 130px;
+}
+
+.wrapper3 {
     display: flex;
     margin-top: 155px;
 }
@@ -231,24 +313,80 @@ footer {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
-.mini {
+.top_container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
 }
 
-footer>a,
-.mini>a {
-    margin: 0 30px;
-    padding: 18px 5px;
+.line1,
+.line2,
+.line3,
+.line4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 50px 10px 50px 25px;
 }
+
+
+.line1>*,
+.line2>*,
+.line3>*,
+.line4>* {
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: NorthernSoul-Caps;
+    font-size: 50px;
+}
+
+.top_container>div:last-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    justify-content: flex-start;
+}
+
+.top_container>div:last-child>* {
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fa-twitter,
+.fa-instagram {
+    margin-left: 13px;
+}
+
+.top_container>div:last-child>*:hover {
+    color: white;
+}
+
+.tradmarks {
+    padding-bottom: 30px;
+}
+
+.sm {
+    padding-top: 60px;
+}
+
+
 
 @media (max-width: 885px) and (min-width: 469px) {
+
+
     .section1 {
         background-image: url(../images/go-further-1.0.5.jpg);
+        background-position: center;
     }
 
     .contained-ul {
@@ -279,6 +417,12 @@ footer>a,
         margin-bottom: 50px;
     }
 
+    .main-title1,
+    .main-title2,
+    .main-title3 {
+        line-height: 40px;
+    }
+
 
     .logo {
         width: 130px;
@@ -291,6 +435,7 @@ footer>a,
         height: 20px;
         width: 20px;
         margin-right: 20px;
+        margin-top: 2px;
         cursor: pointer;
         transition: 1s;
     }
@@ -309,6 +454,7 @@ footer>a,
         width: 20px;
         color: white;
         margin-right: 20px;
+        margin-top: 2px;
         cursor: pointer;
         transition: 1s;
     }
@@ -329,7 +475,7 @@ footer>a,
 
     h1 {
         font-size: 30px;
-        line-height: 40px;
+        line-height: 0px;
     }
 
     span {
@@ -337,14 +483,14 @@ footer>a,
     }
 
     .paragraph {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .paragraph1 {
         line-height: 17px;
     }
 
-    .paragraph2 {
+    .paragraph3 {
         line-height: 20px;
     }
 
@@ -353,12 +499,33 @@ footer>a,
     }
 
     .apps>img {
-        height: calc(37.23px / 1.1);
-        width: calc(125px / 1.1);
+        height: calc(42px / 1.1);
+        width: calc(140px / 1.1);
     }
 
     .span1 {
         line-height: 5px;
+    }
+
+    .top_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .line1,
+    .line2,
+    .line3,
+    .line4 {
+        margin: 0 25px;
+    }
+
+    .sm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+        margin-left: 45px;
+        padding-top: 0;
     }
 
 
@@ -412,6 +579,7 @@ footer>a,
         display: flex;
         height: 20px;
         width: 20px;
+        margin-top: 2px;
         margin-right: 20px;
         cursor: pointer;
     }
@@ -424,6 +592,7 @@ footer>a,
         display: flex;
         height: 20px;
         width: 20px;
+        margin-top: 2px;
         margin-right: 20px;
         cursor: pointer;
     }
@@ -432,9 +601,15 @@ footer>a,
         display: flex;
     }
 
-    h1 {
-        font-size: 30px;
+    .main-title1,
+    .main-title2,
+    .main-title3 {
         line-height: 40px;
+        font-size: 30px;
+    }
+
+    .main-title1 {
+        line-height: 48px;
     }
 
     span {
@@ -442,7 +617,7 @@ footer>a,
     }
 
     .paragraph {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .paragraph1 {
@@ -450,7 +625,7 @@ footer>a,
         width: 70%;
     }
 
-    .paragraph2 {
+    .paragraph3 {
         line-height: 20px;
         width: 70%;
     }
@@ -460,8 +635,8 @@ footer>a,
     }
 
     .apps>img {
-        height: calc(37.23px / 1.1);
-        width: calc(125px / 1.1);
+        height: calc(42px / 1.1);
+        width: calc(140px / 1.1);
     }
 
     .span1 {
@@ -472,22 +647,54 @@ footer>a,
         margin: 0 18px 0 0;
     }
 
-    footer>a,
-    .mini>a {
-        padding: 8px 2px;
-    }
-
-    footer {
-        flex-direction: column;
-    }
 
     .main-title1>br {
         display: none;
     }
 
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-    p>br {
+    .button2 {
+        margin-top: 10px;
+    }
+
+    .paragraph3>br {
         display: none;
     }
+
+    footer {
+        align-items: flex-start;
+    }
+
+    .top_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line1,
+    .line2,
+    .line3,
+    .line4 {
+        margin: 0;
+        padding: 15px 10px 30px 15px;
+    }
+
+    .sm {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+        margin-left: 35px;
+        padding-top: 0;
+    }
+
+    .tradmarks {
+        margin: 0 auto;
+        padding: 0 30px 30px 30px;
+    }
+
 
 }

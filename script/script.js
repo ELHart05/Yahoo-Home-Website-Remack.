@@ -26,7 +26,7 @@ cross.onclick = function changeicon2() {
 
 //when scroll passes the scoller sign it will disappear
 function scrollerhider() {
-    if (this.scrollY >= 550) scroller.classList.add("scrollerhide");
+    if (this.scrollY >= 600) scroller.classList.add("scrollerhide");
     else scroller.classList.remove("scrollerhide");
 }
 window.addEventListener("scroll", scrollerhider);
