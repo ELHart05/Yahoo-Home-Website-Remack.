@@ -1,8 +1,8 @@
-# Yahoo-Home-Website-Remack.
+# Yahoo Website Remack By Me
 
-![_C__Users_okbaa_Desktop_HTML%20CSS%20JS_Yahoo%20Remack_index html](https://user-images.githubusercontent.com/96151694/161331021-62fcdc2f-c17c-409c-a91e-526f31804e93.png)
+![_C__Users_okbaa_Desktop_HTML%20CSS%20JS_Yahoo-Home-Website-Remack -main_index html](https://user-images.githubusercontent.com/96151694/161332478-9c192dc0-fa83-42bd-a2a5-452a797f413c.png)
 
-Simple Challenge By FRONTEND MENTOR Using HTML CSS Only ...
+Yahoo Website Remack With Some Changes Using HTML CSS And JavaScript ...
 
 NOTE : THE WEBSITE IS HOSTED ON NETLIFY YOU CAN CHECK IT OUT : https://yahooremack.netlify.app
 
