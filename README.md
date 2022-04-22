@@ -1,6 +1,6 @@
 # Yahoo Website Remack By Me
 
-![_C__Users_okbaa_Desktop_HTML%20CSS%20JS_Yahoo-Home-Website-Remack -main_index html](https://user-images.githubusercontent.com/96151694/161332478-9c192dc0-fa83-42bd-a2a5-452a797f413c.png)
+![_C__Users_okbaa_Desktop_HTML%20CSS%20JS_Yahoo%20Home%20Website%20Remack_index html (1)](https://user-images.githubusercontent.com/96151694/164773332-c5ccab99-bbee-43d2-b40a-b73f8e1b0975.png)
 
 Yahoo Website Remack With Some Changes Using HTML CSS And JavaScript ...
 
