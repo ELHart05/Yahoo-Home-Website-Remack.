@@ -27,10 +27,14 @@ nav {
     justify-content: space-between;
     flex-direction: row;
     background-color: rgba(115, 1, 255, 0.9);
-    opacity: 0.9;
     position: sticky;
+    transition: 1s;
     top: 0;
     z-index: 999;
+}
+
+.nav_bar_shadow {
+    box-shadow: black 0 0 10px 5px;
 }
 
 .apple:hover {
@@ -129,8 +133,8 @@ h1 {
 
 .main-title3 {
     color: black;
-    font-weight: 600;
     line-height: 55px;
+    letter-spacing: 3px;
 }
 
 span {
@@ -146,6 +150,7 @@ span {
 
 .span1 {
     line-height: 45px;
+    background-size: 350px;
 }
 
 .span2 {
@@ -375,7 +380,7 @@ h2 {
 }
 
 .tradmarks {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .sm {
@@ -392,23 +397,7 @@ h2 {
         background-position: center;
     }
 
-    .contained-ul {
-        display: none;
-    }
-
-
-    .contained-ul-appear {
-        background-color: rgba(115, 1, 255, 0.9);
-        flex-direction: column;
-        position: absolute;
-        top: 75px;
-        left: 0;
-        width: 100%;
-        align-items: flex-start;
-        transition: 2s;
-    }
-
-    .contained-ul-appear>a {
+    .contained-ul>a {
         margin-top: 50px;
         border: transparent;
         padding: 0;
@@ -416,14 +405,38 @@ h2 {
         font-size: 15px;
     }
 
-    .contained-ul-appear>a:last-child {
+    .contained-ul>a:last-child {
         margin-bottom: 50px;
     }
 
-    .main-title1,
-    .main-title2,
+
+    .contained-ul {
+        background-color: rgba(115, 1, 255, 0.9);
+        flex-direction: column;
+        position: absolute;
+        top: -750px;
+        left: 0;
+        width: 100%;
+        align-items: flex-start;
+        transition: 0.5s;
+    }
+
+    .contained-ul-appear {
+        top: 75px;
+    }
+
+
+    .main-title1 {
+        line-height: 35px;
+    }
+
+    .main-title2 {
+        line-height: 30px;
+        margin-top: 30px;
+    }
+
     .main-title3 {
-        line-height: 40px;
+        line-height: 34px;
     }
 
 
@@ -508,6 +521,7 @@ h2 {
 
     .span1 {
         line-height: 5px;
+        background-size: contain;
     }
 
     .top_container {
@@ -527,7 +541,7 @@ h2 {
         align-items: center;
         justify-content: center;
         padding-bottom: 30px;
-        margin-left: 45px;
+        margin-left: 55px;
         padding-top: 0;
     }
 
@@ -539,23 +553,7 @@ h2 {
         background-image: url(../images/go-further-1.0.5.jpg);
     }
 
-    .contained-ul {
-        display: none;
-    }
-
-
-    .contained-ul-appear {
-        background-color: rgba(115, 1, 255, 0.9);
-        flex-direction: column;
-        position: absolute;
-        top: 75px;
-        left: 0;
-        width: 100%;
-        align-items: flex-start;
-        transition: 2s;
-    }
-
-    .contained-ul-appear>a {
+    .contained-ul>a {
         margin-top: 50px;
         border: transparent;
         padding: 0;
@@ -563,12 +561,28 @@ h2 {
         font-size: 15px;
     }
 
-    .scroller {
-        display: none;
+    .contained-ul>a:last-child {
+        margin-bottom: 50px;
     }
 
-    .contained-ul-appear>a:last-child {
-        margin-bottom: 50px;
+
+    .contained-ul {
+        background-color: rgba(115, 1, 255, 0.9);
+        flex-direction: column;
+        position: absolute;
+        top: -750px;
+        left: 0;
+        width: 100%;
+        align-items: flex-start;
+        transition: 0.5s;
+    }
+
+    .contained-ul-appear {
+        top: 75px;
+    }
+
+    .scroller {
+        display: none;
     }
 
 
@@ -607,17 +621,28 @@ h2 {
     .main-title1,
     .main-title2,
     .main-title3 {
-        line-height: 40px;
         font-size: 30px;
     }
 
     .main-title1 {
-        line-height: 48px;
+        line-height: 35px;
     }
 
+    .main-title2 {
+        line-height: 30px;
+        margin-top: 30px;
+    }
+
+    .main-title3 {
+        line-height: 34px;
+    }
+
+
     span {
+        background-size: contain;
         font-size: 60px;
     }
+
 
     .paragraph {
         font-size: 15px;
@@ -660,6 +685,7 @@ h2 {
         flex-direction: column;
         align-items: flex-start;
     }
+
 
     .button2 {
         margin-top: 10px;
