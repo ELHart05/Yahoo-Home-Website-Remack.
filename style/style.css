@@ -639,7 +639,6 @@ h2 {
 
 
     span {
-        background-size: contain;
         font-size: 60px;
     }
 
@@ -669,6 +668,8 @@ h2 {
 
     .span1 {
         line-height: 5px;
+        background-size: contain;
+        font-size: 55px;
     }
 
     .signin {
