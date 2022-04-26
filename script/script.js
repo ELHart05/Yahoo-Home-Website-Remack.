@@ -6,21 +6,24 @@ const navbar = document.querySelector("nav");
 
 
 //when the user clicks on the hamburger, it will be hided, displays the ul hidden on the phone mode and displays also the cross sign.
-hamburger.onclick = function changeicon1() {
+function changeicon1() {
     cross.classList.add("crosshide");
     hamburger.classList.remove("hamburger");
     hamburger.classList.add("hamburgerhide");
     nav.classList.add("contained-ul-appear");
 }
+hamburger.addEventListener("click", changeicon1);
 
 
 //the opposite operation of the first function
-cross.onclick = function changeicon2() {
+function changeicon2() {
     cross.classList.remove("crosshide");
     hamburger.classList.add("hamburger");
     hamburger.classList.remove("hamburgerhide")
     nav.classList.remove("contained-ul-appear");
 }
+
+cross.addEventListener("click", changeicon2);
 
 
 //when scroll passes the scoller sign it will disappear
@@ -28,6 +31,8 @@ function scrollerhider() {
     if (this.scrollY >= 600) scroller.classList.add("scrollerhide");
     else scroller.classList.remove("scrollerhide");
 }
+
+window.addEventListener("scroll", scrollerhider);
 
 //add shadow when some scroll happening
 function navbarshadow() {
@@ -38,5 +43,4 @@ function navbarshadow() {
     }
 }
 
-window.addEventListener("scroll", scrollerhider);
 window.addEventListener("scroll", navbarshadow);
