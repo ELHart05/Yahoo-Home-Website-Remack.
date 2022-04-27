@@ -188,7 +188,7 @@ span {
 }
 
 .button2 {
-    padding: 6px 20px;
+    padding: 7px 20px;
 }
 
 .button2:hover {
@@ -292,6 +292,7 @@ input:focus {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 12%;
+    padding-bottom: 50px;
 }
 
 .wrapper1 {
@@ -380,7 +381,7 @@ h2 {
 }
 
 .tradmarks {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .sm {
@@ -506,13 +507,19 @@ h2 {
         line-height: 17px;
         width: 325px;
     }
-    .paragraph1>br{display: none;}
+
+    .paragraph1>br {
+        display: none;
+    }
 
     .paragraph3 {
         line-height: 20px;
-        width: 10px;
+        width: 50%;
     }
-    .paragraph3>br{display: none;}
+
+    .paragraph3>br {
+        display: none;
+    }
 
     .wrapper {
         margin-left: 10%;
@@ -656,7 +663,9 @@ h2 {
         width: 275px;
     }
 
-    .paragraph1>br{display: none;}
+    .paragraph1>br {
+        display: none;
+    }
 
     .paragraph3 {
         line-height: 20px;
@@ -729,7 +738,7 @@ h2 {
 
     .tradmarks {
         margin: 0 auto;
-        padding: 0 30px 30px 30px;
+        padding: 0 30px 10px 30px;
     }
 
 
